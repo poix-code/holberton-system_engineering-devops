@@ -78,4 +78,8 @@ The script makes directories with the option -p, creating parent directories as 
 
 # 18-commas
 
-The script lists all the files and directories of the current directory, using the options required in the task, all of the options have been reviewed from the "man ls". 
+The script lists all the files and directories of the current directory, using the options required in the task, all of the options have been reviewed from the "man ls".
+
+# holberton.mgc
+
+Define what the string contains inside, the second line use "file" with the option "--mime" since you use the 'magic' file. 
