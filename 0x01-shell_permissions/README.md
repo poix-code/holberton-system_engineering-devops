@@ -70,3 +70,6 @@ The Script change the owner of the file "hello" to "betty" only if the owner is 
 
 The script execute "StarWars IV episode" in the terminal, before this we must installed "sudo apt install telnet".
 
+# 101-man_holberton
+
+The file contains a man page.
