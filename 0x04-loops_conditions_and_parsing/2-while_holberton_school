@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+B#!/usr/bin/env bash
 # The Bash script displays 'Holberton school' 10 times using while loop.
 x=1
 while [ $x -le 10 ]
 do
-    echo "Holberton school"
+    echo "Holberton School"
    x=$(( x + 1 ))
 done
