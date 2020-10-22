@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# The Bash script displays 'Holberton School' 10 times
+# except in the 4th(bad luck) and 8th(good luck) time.
+i=1
+while [ $i -le 10 ]
+do
+    if [ $i -eq 4 ]
+	then
+	echo "bad luck"
+    elif [ $i -eq 8 ]
+	then
+	echo "good luck"
+    else
+	echo "Holberton school"
+    fi
+    i=$((i + 1))
+done
