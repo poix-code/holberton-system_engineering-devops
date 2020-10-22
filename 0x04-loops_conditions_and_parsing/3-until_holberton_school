@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# The Bash script displays 'Holberton School' 10 times using until loop
+a=0
+until [ ! $a -lt 10 ]
+do
+   echo "Holberton School"
+   a=$((a + 1))
+done
