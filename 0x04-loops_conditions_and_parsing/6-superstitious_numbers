@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# The Bash script displays numbers 1 to 20, after the 4th 
+# displays 'bad luck from China', after the 9th 'bad luck from Japan'
+# and to 17th displays 'bad luck from Italy'.
+i=1
+while [ $i -le 20 ]
+do
+    echo $i
+    case "$i" in
+	4) echo "bad luck from China"
+	    ;;
+	9) echo "bad luck from Japan"
+	    ;;
+	17) echo "bad luck from Italy"
+	    ;;
+    esac
+    i=$((i + 1))
+done
