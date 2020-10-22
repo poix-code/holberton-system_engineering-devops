@@ -1,4 +1,4 @@
-B#!/usr/bin/env bash
+#!/usr/bin/env bash
 # The Bash script displays 'Holberton school' 10 times using while loop.
 x=1
 while [ $x -le 10 ]
