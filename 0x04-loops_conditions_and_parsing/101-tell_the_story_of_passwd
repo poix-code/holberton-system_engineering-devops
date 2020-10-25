@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# The Bash script displays the /etc/passwd content, using while loop and
+# IFS variable.
+IFS=":"; while read -r acc psswd uid gid usr home shell
+do
+    echo "The user $usr is part of the $gid gang, lives in $home and rides $shell. $uid's place is protected by the passcode $psswd, more info about the user here: $acc"
+done < /etc/passwd
