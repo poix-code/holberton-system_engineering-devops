@@ -2,5 +2,5 @@
 # The Bash script displays the /etc/passwd content, using while loop.
 while IFS=: read -r acc psswd uid gid usr home shell
 do
-    echo "The user $usr is part of the $gid gang, lives in $home and rides $shell. $uid's place is protected by the passcode $psswd, more info about the user here: $acc"
+    echo "The user $acc is part of the $gid gang, lives in $home and rides $shell. $uid's place is protected by the passcode $psswd, more info about the user here: $usr"
 done < /etc/passwd
