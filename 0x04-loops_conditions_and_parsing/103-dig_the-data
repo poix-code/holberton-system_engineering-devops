@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays the IP by number of occurences, format OCCURENCE_NUMBER IP HTTP_CODE
+awk '{print $1 " " $9}' < apache-access.log | uniq -c | sort -r
