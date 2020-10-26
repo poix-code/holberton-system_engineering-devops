@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Displays the process associated with Bash.
+# shellcheck disable=SC2009
+ps axu -H | grep bash
