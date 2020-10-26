@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# The Bash script displays the visitor IP with the HTTP_CODE.
+awk '{print $1 " " $9}' apache-access.log
