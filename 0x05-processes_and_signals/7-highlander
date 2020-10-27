@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# The script displays infinitely a phrase, if receiving a SIGTERM displays other
+trap 'echo "I am invincible!!!"' SIGTERM
+while :
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
