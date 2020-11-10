@@ -1,4 +1,4 @@
-# Project:0x06. Regular expression
+B# Project:0x06. Regular expression
 
 ## 0-simply_match_holberton.rb
 
@@ -13,5 +13,9 @@ Find the regular expression that will match a specified cases.
 Find the regular expression that will match a specified cases.
 
 ## 3-repetition_token_2.rb
+
+Find the regular expression that will match a specified cases.
+
+## 4-repetition_token_3.rb
 
 Find the regular expression that will match a specified cases.
