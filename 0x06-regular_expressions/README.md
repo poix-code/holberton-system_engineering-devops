@@ -23,3 +23,7 @@ Find the regular expression that will match a specified cases.
 ## 5-beginning_and_end.rb
 
 The regular expression must be exactly matching a string that starts with **h** ends with **n** and can have any single character in between.
+
+## 6-phone_number.rb
+
+The regular expression must match a 10 digit phone number.
