@@ -1,4 +1,4 @@
-# Project:0x06. Regular expression
+B# Project:0x06. Regular expression
 
 ## 0-simply_match_holberton.rb
 
@@ -27,3 +27,7 @@ The regular expression must be exactly matching a string that starts with **h** 
 ## 6-phone_number.rb
 
 The regular expression must match a 10 digit phone number.
+
+## 7-OMG_WHY_ARE_YOU_SHOUTING.rb
+
+The regular expression must be only matching: capital letters.
