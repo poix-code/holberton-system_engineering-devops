@@ -1,4 +1,4 @@
-B# Project:0x07.Networking basics #0
+BB# Project:0x07.Networking basics #0
 
 ## 0-OSI_model
 
@@ -23,4 +23,6 @@ Write a Bash script that displays listening ports:
 +That only shows listening sockets
 +That shows the PID and name of the program to which each socket belongs
 
-## 
+## 5-is_the_host_on_the_network
+
+Write a Bash script that pings an IP address passed as an argument.
