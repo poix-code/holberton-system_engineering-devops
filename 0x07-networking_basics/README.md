@@ -15,3 +15,12 @@ What is a MAC address? & What is an IP address?
 ## 3-UDP_and_TCP
 
 Questions about TCP and UDP.
+
+## 4-TCP_and_UDP_ports
+
+Write a Bash script that displays listening ports:
+
++That only shows listening sockets
++That shows the PID and name of the program to which each socket belongs
+
+## 
