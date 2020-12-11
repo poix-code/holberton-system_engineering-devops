@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Default page to serve a 404 not found.
+sudo apt-get -y update
+sudo apt-get -y install nginx
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sed -i '/server_name _;/ a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
+echo "Ceci n'est pas une page" > /var/www/html/page404.html
+sed -i '/server_name _;/ a error_page 404 /page404.html;\nlocation = /page404.html {\nroot /var/www/html;\ninternal;\n}' /etc/nginx/sites-available/default
+service nginx start
