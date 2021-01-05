@@ -5,6 +5,7 @@
 #      443 (HTTPS SSL)
 #      80 (HTTP)
 sudo apt-get -y install ufw
+sudo apt update
 sudo ufw default deny incoming # Handle traffic by default policies
 sudo ufw allow 22 # Activating the TCP ports
 sudo ufw allow 443
