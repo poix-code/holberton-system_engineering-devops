@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Nginx must be running and listening on port 8080
 pkill apache
-sudo chmod 777 /etc/nginx
-sed -i "2i user nginx" /etc/nginx/nginx.conf
+sudo chmod 700 /etc/nginx/nginx.conf
+chown nginx:nginx /etc/nginx/nginx.conf
 sed -i "s/80/8080/g" /etc/nginx/sites-available/default
-sudo -u nginx nginx -c /etc/nginx/nginx.conf
+sudo -u nginx service nginx start
