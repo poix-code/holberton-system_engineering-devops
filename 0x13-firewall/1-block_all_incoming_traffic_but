@@ -6,7 +6,6 @@
 #      80 (HTTP)
 sudo apt-get -y install ufw
 sudo ufw default deny incoming # Handle traffic by default policies
-sudo ufw default allow outgoing # Handle traffic by default policies
 sudo ufw allow 22 # Activating the TCP ports
 sudo ufw allow 443
 sudo ufw allow 80
