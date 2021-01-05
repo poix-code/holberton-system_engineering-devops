@@ -4,6 +4,7 @@
 #      22 (SSH)
 #      443 (HTTPS SSL)
 #      80 (HTTP)
+sudo apt-get -y install ufw
 sudo ufw default deny incoming # Handle traffic by default policies
 sudo ufw default allow outgoing # Handle traffic by default policies
 sudo ufw allow 22 # Activating the TCP ports
