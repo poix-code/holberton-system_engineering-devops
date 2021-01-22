@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# The script makes a backup, compressing the MySQL data.
+mysqldump -uroot --password="$1" --all-databases > backup.sql
+tar -zcvf "$(date '+%d-%m-%Y').tar.gz" backup.sql
