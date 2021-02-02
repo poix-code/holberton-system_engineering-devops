@@ -16,7 +16,8 @@ if __name__ == "__main__":
     for task in todos:
         user_id = task.get("userId")
         username = ids[user_id]
-        t = task.get("completed")
+        t = task.get("title")
+        completed = task.get("completed")
         d = {"username": username, "task": t, "completed": completed}
         if dic.get(user_id):
             dic.get(user_id).append(d)
