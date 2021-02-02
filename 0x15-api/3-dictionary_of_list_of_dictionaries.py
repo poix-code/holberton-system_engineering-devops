@@ -23,5 +23,6 @@ if __name__ == "__main__":
             dic.get(user_id).append(d)
         else:
             dic[user_id] = [d]
+
     with open('todo_all_employees.json', 'w', newline='') as f:
-        json.dump(task_dic, f)
+        json.dump(dic, f)
